@@ -1,0 +1,20 @@
+/* itis3135/styles/default.css */
+body {
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333;               /* Dark gray text */
+    font-family: "Trebuchet MS", sans-serif; /* Professional font change */
+    margin: 40px;
+    line-height: 1.6;
+}
+
+header, footer {
+    text-align: center;
+    border-bottom: 2px solid #a00; /* Red divider for your mascot theme */
+    padding: 10px;
+}
+
+footer {
+    border-top: 2px solid #a00;
+    border-bottom: none;
+    margin-top: 50px;
+}
