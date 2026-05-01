@@ -1,20 +1,43 @@
-/* itis3135/styles/default.css */
+/* itis3135/Styles/default.css */
 body {
-    background-color: #f4f4f4; /* Light gray background */
-    color: #333;               /* Dark gray text */
-    font-family: "Trebuchet MS", sans-serif; /* Professional font change */
-    margin: 40px;
-    line-height: 1.6;
+    background-color: #fafafa; /* Off-white background */
+    color: #222;               /* Near-black text */
+    font-family: Arial, Helvetica, sans-serif; /* Clean font */
+    margin: 50px auto;
+    max-width: 900px;         /* Keeps the text from stretching too wide */
+    line-height: 1.8;
 }
 
 header, footer {
     text-align: center;
-    border-bottom: 2px solid #a00; /* Red divider for your mascot theme */
-    padding: 10px;
+    border-bottom: 3px double #b30000; /* Deep red divider */
+    padding: 20px;
 }
 
 footer {
-    border-top: 2px solid #a00;
+    border-top: 3px double #b30000;
     border-bottom: none;
-    margin-top: 50px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+h1, h2 {
+    color: #b30000; /* Deep red for headers */
+}
+
+nav a {
+    text-decoration: none;
+    color: #0056b3; /* Professional blue for links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b30000;
+    text-decoration: underline;
+}
+
+/* Specific styling for the contract signature */
+em {
+    font-weight: bold;
+    color: #444;
 }
