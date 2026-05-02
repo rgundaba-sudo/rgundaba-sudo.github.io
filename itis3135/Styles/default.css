@@ -1,42 +1,47 @@
-/* itis3135/Styles/default.css - Course Site */
+/* itis3135/Styles/default.css */
+
+/* Style 1 & 2: Center container with max-width */
 body {
-    background-color: #e0e7ff; /* Light indigo background */
-    color: #1e293b;           /* Dark slate foreground */
-    font-family: 'Helvetica', Arial, sans-serif; 
-    line-height: 1.7;
-    max-width: 1000px;        /* Different max-width */
-    margin: 0 auto;           /* Centers the content */
-    padding: 30px;
+    background-color: #eef2f3; /* Style 3: Background color */
+    color: #222;               /* Style 4: Text color */
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Style 5: Sans-serif font */
+    line-height: 1.8;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-header {
-    background-color: #312e81; /* Dark blue */
-    color: #ffffff;
-    padding: 25px;
-    border-bottom: 5px solid #ef4444; /* Red accent for mascot */
+/* FIX: Changed from 'header h1' to just 'h1' */
+h1 {
+    font-family: 'Georgia', serif; /* Style 6: Different font for heading */
+    color: #b30000;
+    text-align: center;
 }
 
-header h1 {
-    color: #ffffff; /* Ensure contrast on dark bg */
-    font-family: 'Trebuchet MS', serif;
+/* FIX: Changed from 'main h2' to just 'h2' */
+h2 {
+    color: #2c3e50;
+    border-left: 5px solid #b30000; /* Style 7: Border accent */
+    padding-left: 15px;
 }
 
+/* FIX: Changed from 'footer p' to just 'footer' */
 footer {
-    margin-top: 40px;
-    border-top: 2px solid #312e81;
     text-align: center;
     font-size: 0.9em;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
 }
 
-/* Professional link styling */
-nav a {
-    color: #4f46e5;
-    text-decoration: none;
+/* Style for links without qualifying them as 'nav a' */
+a {
+    color: #0056b3;
     font-weight: bold;
-    padding: 0 10px;
+    text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
-    color: #ef4444;
+    color: #b30000;
 }
