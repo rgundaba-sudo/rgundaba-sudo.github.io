@@ -1,32 +1,33 @@
-/* ROOT Styles/default.css - Personal Site */
+/* ROOT Styles/default.css */
 body {
-    background-color: #ffffff; /* White background */
-    color: #1a1a1a;           /* Near black text */
-    font-family: 'Verdana', sans-serif; /* Sans-serif for small text */
+    background-color: #ffffff;
+    color: #333333;
+    font-family: Arial, sans-serif; /* Sans-serif for body */
     line-height: 1.6;
-    max-width: 850px;         /* Max-width requirement */
-    margin: 0 auto;           /* Centers the container */
-    padding: 20px;
+    max-width: 800px;         /* Style 1: Max-width */
+    margin: 0 auto;           /* Style 2: Centered layout */
+    padding: 20px;            /* Style 3: Padding */
 }
 
-h1, h2, h3 {
-    font-family: 'Georgia', serif; /* Serif/Stylized for big text */
-    color: #2c3e50;
-}
-
-header, footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
+h1 {                          /* Style 4: Removed 'header' qualification */
+    font-family: Georgia, serif; 
+    color: #2c3e50;           /* Style 5: Header Color */
     text-align: center;
 }
 
-main {
-    padding: 20px 0;
+h2 {
+    border-bottom: 2px solid #2c3e50; /* Style 6: Border style */
+    padding-bottom: 10px;
 }
 
-/* Ensure images don't break the layout */
-img {
-    max-width: 100%;
-    height: auto;
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-size: 0.8em;         /* Style 7: Font size change */
+    text-align: center;
+    margin-top: 50px;
+    color: #7f8c8d;
 }
